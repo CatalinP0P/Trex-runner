@@ -1,0 +1,85 @@
+#canvas
+{
+    width: 1200px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+
+@keyframes moveBackground
+{
+    to 
+    {
+        transform: translateX(-100%);
+    }
+}
+
+#Trex
+{
+    position:absolute;
+    bottom: 0px;
+    left: 50px;
+    height: 75px;
+    z-index: 10;
+}
+
+#Trex .dodging
+{
+    height: 30px;
+}
+
+.Bird
+{
+    height: 55px;
+    bottom: 10px;
+}
+
+.bird-top
+{
+    bottom: 55px;
+}
+
+#obstacle
+{
+    position: absolute;
+    right: 0;
+}
+
+#obstacle.ob1
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 75px;
+}
+
+#obstacle.ob2
+{
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+}
+
+.ground
+{
+    width : 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.ground-2
+{
+    left: 1200;
+}
+
+.score
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 1rem;
+    font-size: 1.5rem;
+    margin-right: .35rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
